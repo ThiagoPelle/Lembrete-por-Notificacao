@@ -17,8 +17,22 @@ Ideal para estudos, automação pessoal ou como base para projetos maiores.
 - Python 3.x  
 - Biblioteca [`plyer`](https://pypi.org/project/plyer/)  
 
-## 📦 Instalação
+'''import time
+from plyer import notification
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/lembrete-python.git
+def lembrete(mensagem, segundos):
+    print(f"Lembrete agendado para {segundos} segundos...")
+    time.sleep(segundos)
+
+    notification.notify(
+        title="🔔 Lembrete",
+        message=mensagem,
+        timeout=10
+    )
+
+if __name__ == "__main__":
+    lembrete("Hora de beber água 💧", 10)'''
+
+
+
+
