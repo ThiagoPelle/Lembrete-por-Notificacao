@@ -1,23 +1,29 @@
-# Lembrete-por-Notificacao
-# 🔔 Lembrete por Notificação em Python
+# Lembrete por Notificação em Python
 
 Um script simples em **Python** que cria **lembretes com notificações do sistema**, funcionando em **Windows, macOS e Linux**, utilizando a biblioteca `plyer`.
 
 Ideal para estudos, automação pessoal ou como base para projetos maiores.
 
-## 📌 Funcionalidades
+## Funcionalidades
 
-- ⏰ Cria lembretes com atraso em segundos  
-- 🔔 Exibe notificação nativa do sistema operacional  
-- 🖥️ Compatível com Windows, macOS e Linux  
-- 🧠 Código simples e fácil de adaptar  
+- Cria lembretes com atraso em segundos  
+- Exibe notificação nativa do sistema operacional  
+- Compatível com Windows, macOS e Linux  
+- Código simples e fácil de adaptar  
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python 3.x  
-- Biblioteca [`plyer`](https://pypi.org/project/plyer/)  
+- Biblioteca [`plyer`](https://pypi.org/project/plyer/)
 
-'''import time
+**Licença**
+
+MIT
+
+## Código do projeto
+
+````
+import time
 from plyer import notification
 
 def lembrete(mensagem, segundos):
@@ -31,7 +37,11 @@ def lembrete(mensagem, segundos):
     )
 
 if __name__ == "__main__":
-    lembrete("Hora de beber água 💧", 10)'''
+    lembrete("Hora de beber água 💧", 10)
+`````
+
+**Projeto simples, mais é útil em muitos casos. Ainda da para melhoras ainda mais esse projeto**
+
 
 
 
