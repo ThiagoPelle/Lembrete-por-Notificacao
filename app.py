@@ -6,14 +6,13 @@ def lembrete(mensagem, segundos):
     time.sleep(segundos)
 
     notification.notify(
-        title="🔔 Lembrete",
+        title=" Lembrete",
         message=mensagem,
-        timeout=10  # segundos que a notificação fica visível
+        timeout=10 
     )
 
-# ====== USO ======
 if __name__ == "__main__":
-    texto = "Hora de beber água 💧"
-    tempo_em_segundos = 10  # 10 segundos
+    texto = "Hora de dormir"
+    tempo_em_segundos = 10  
 
     lembrete(texto, tempo_em_segundos)
