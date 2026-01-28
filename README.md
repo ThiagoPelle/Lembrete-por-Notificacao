@@ -1,6 +1,6 @@
 # Lembrete por Notificação em Python
 
-Um script simples em **Python** que cria **lembretes com notificações do sistema**, funcionando em **Windows, macOS e Linux**, utilizando a biblioteca `plyer`.
+Um script simples em **Python** que cria **lembretes com notificações do sistema**, ele é funcionando em **Windows, macOS e Linux**, que utilizando a biblioteca `plyer`.
 
 Ideal para estudos, automação pessoal ou como base para projetos maiores.
 
